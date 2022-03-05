@@ -1,0 +1,6 @@
+{
+    "coc.preferences.extensionUpdateCheck": "never",
+    "suggest.noselect": true,
+    "suggest.enablePreview": false,
+    "colors.filetypes": ["*"]
+}
