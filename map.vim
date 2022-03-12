@@ -1,11 +1,10 @@
-let g:mapleader=";"
+let g:mapleader=","
 inoremap jj <Esc>
 nnoremap <silent> <tab> :bnext<CR>
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
-
 
 inoremap ( ()<Esc>i
 inoremap ) <Esc>la
