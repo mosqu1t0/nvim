@@ -12,9 +12,12 @@ inoremap [ []<Esc>i
 inoremap ] <ESC>la
 inoremap { {}<ESC>i
 inoremap } <Esc>la
+"markdown 全角中文空格
+inoremap <leader><space> &emsp;
 
 nnoremap P "+p
 nnoremap Y "+y
+vnoremap Y "+y
 
 "nerdtree
 nnoremap <leader>n :NERDTreeToggle<CR>
