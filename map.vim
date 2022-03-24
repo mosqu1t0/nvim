@@ -1,4 +1,4 @@
-let g:mapleader=","
+let g:mapleader="\"
 inoremap jj <Esc>
 nnoremap <silent> <tab> :bnext<CR>
 nnoremap <C-j> <C-w>j
