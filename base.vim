@@ -6,7 +6,7 @@ set nu
 set number
 "cursorline的缩写形式
 "set cursorline
-set cul          
+set cul
 "忽略大小写命令
 set ignorecase
 "显示括号匹配
