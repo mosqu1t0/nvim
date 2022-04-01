@@ -31,5 +31,5 @@ nnoremap <leader>n :NERDTreeToggle<CR>
 nnoremap <leader>f :NERDTreeFind<CR>
 
 " 打开HTML
-nnoremap <leader>p :call DisplayHTML()<CR>
+nnoremap <leader>p :Bracey<CR>
 
