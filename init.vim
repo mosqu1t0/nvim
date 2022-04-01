@@ -19,7 +19,8 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'myusuf3/numbers.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-surround'
-"Plug 'RRethy/vim-illuminate'
+Plug 'turbio/bracey.vim'
+"Plug 'RRethy/vim-illuminate' "hightlight
 call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""plug-in end
 
