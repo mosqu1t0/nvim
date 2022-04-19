@@ -20,17 +20,22 @@ Plug 'myusuf3/numbers.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-surround'
 Plug 'turbio/bracey.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 "Plug 'RRethy/vim-illuminate' "hightlight
+
 call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""plug-in end
 
 " colortheme config
 source $VIMPATH/colortheme.vim
+" source $VIMPATH/gruvbox.vim
 
 " plug config
 source $VIMPATH/plug-config/airline.vim
 source $VIMPATH/plug-config/markdown.vim
 source $VIMPATH/plug-config/indentline.vim
 source $VIMPATH/plug-config/coc.vim
+source $VIMPATH/plug-config/bracey.vim
 
 
