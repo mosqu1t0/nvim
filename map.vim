@@ -1,7 +1,7 @@
 
 source $VIMPATH/func.vim
 
-let g:mapleader="\\"
+let g:mapleader="["
 
 """""""""""""""""""""""""""""""""""""补全类
 inoremap ( ()<Esc>i
@@ -32,4 +32,6 @@ nnoremap <leader>f :NERDTreeFind<CR>
 
 " 打开HTML
 nnoremap <leader>p :Bracey<CR>
+" 打开markdown
+nnoremap <leader>m :MarkdownPreviewToggle<CR>
 
