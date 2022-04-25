@@ -25,7 +25,21 @@ Plug 'junegunn/fzf.vim'
 "Plug 'RRethy/vim-illuminate' "hightlight
 
 call plug#end()
+
+
+let g:coc_global_extensions = [
+            \'coc-vimlsp',
+            \'coc-syntax',
+            \'coc-marketplace',
+            \'coc-tsserver', 
+            \'coc-json', 
+            \'coc-css',
+            \'coc-html',
+            \'coc-snippets',
+            \'coc-highlight']
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""plug-in end
+
 
 " colortheme config
 source $VIMPATH/colortheme.vim
