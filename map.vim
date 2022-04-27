@@ -3,6 +3,10 @@ source $VIMPATH/func.vim
 
 let g:mapleader="["
 
+
+
+"""""""""""""""""""""""""""""""""""""key
+source $VIMPATH/colemak.vim
 """""""""""""""""""""""""""""""""""""补全类
 inoremap ( ()<Esc>i
 inoremap ) <Esc>la
@@ -12,7 +16,7 @@ inoremap { {}<ESC>i
 inoremap } <Esc>la
 
 """""""""""""""""""""""""""""""""""""功能类
-inoremap jj <Esc>
+inoremap nn <Esc>
 nnoremap <silent> <tab> :bnext<CR>
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
