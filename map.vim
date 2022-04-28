@@ -23,12 +23,13 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
-"markdown 全角中文空格
-inoremap <leader><space> &emsp;
-
 nnoremap P "+p
 nnoremap Y "+y
 vnoremap Y "+y
+
+"markdown 全角中文空格
+inoremap <leader><space> &emsp;
+inoremap ``` ```<CR>```<ESC>ka
 
 "nerdtree
 nnoremap <leader>n :NERDTreeToggle<CR>
