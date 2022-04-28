@@ -7,4 +7,4 @@ noremap <silent> s d
 noremap <silent> d g
 noremap <silent> k n
 noremap <silent> K N
-
+noremap <silent> d s
