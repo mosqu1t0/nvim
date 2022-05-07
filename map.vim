@@ -16,7 +16,6 @@ inoremap { {}<ESC>i
 inoremap } <Esc>la
 
 """""""""""""""""""""""""""""""""""""功能类
-inoremap nn <Esc>
 nnoremap <silent> <tab> :bnext<CR>
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k

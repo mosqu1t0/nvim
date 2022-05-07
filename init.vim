@@ -20,7 +20,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'myusuf3/numbers.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-surround'
-Plug 'turbio/bracey.vim'
+Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 "Plug 'RRethy/vim-illuminate' "hightlight
@@ -34,6 +34,7 @@ let g:coc_global_extensions = [
             \'coc-marketplace',
             \'coc-tsserver', 
             \'coc-json', 
+            \'coc-emmet', 
             \'coc-css',
             \'coc-html',
             \'coc-snippets',
