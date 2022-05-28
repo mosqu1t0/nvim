@@ -1,19 +1,15 @@
 
 source $VIMPATH/func.vim
 
-let g:mapleader="["
-
+let g:mapleader="\\"
 
 
 """""""""""""""""""""""""""""""""""""key
 source $VIMPATH/colemak.vim
-"""""""""""""""""""""""""""""""""""""补全类
+""""""""""""""""""""""""""""""""""""补全类
 inoremap ( ()<Esc>i
-inoremap ) <Esc>la
 inoremap [ []<Esc>i
-inoremap ] <ESC>la
-inoremap { {}<ESC>i
-inoremap } <Esc>la
+inoremap { {<CR>}<ESC>O
 
 """""""""""""""""""""""""""""""""""""功能类
 nnoremap <silent> <tab> :bnext<CR>
@@ -28,7 +24,8 @@ vnoremap Y "+y
 
 "markdown 全角中文空格
 inoremap <leader><space> &emsp;
-inoremap ``` ```<CR>```<ESC>ka
+inoremap <leader>` ```<CR>```<ESC>ka
+inoremap <leader>: :::<CR>:::<ESC>ka
 
 "nerdtree
 nnoremap <leader>n :NERDTreeToggle<CR>

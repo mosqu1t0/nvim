@@ -23,6 +23,7 @@ Plug 'tpope/vim-surround'
 Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'tpope/vim-commentary'
 "Plug 'RRethy/vim-illuminate' "hightlight
 
 call plug#end()
@@ -38,6 +39,7 @@ let g:coc_global_extensions = [
             \'coc-css',
             \'coc-html',
             \'coc-snippets',
+            \'coc-ccls',
             \'coc-highlight']
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""plug-in end
@@ -53,5 +55,6 @@ source $VIMPATH/plug-config/markdown.vim
 source $VIMPATH/plug-config/indentline.vim
 source $VIMPATH/plug-config/coc.vim
 source $VIMPATH/plug-config/bracey.vim
+source $VIMPATH/plug-config/comment.vim
 
 
