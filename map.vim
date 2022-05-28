@@ -11,6 +11,8 @@ inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap { {<CR>}<ESC>O
 
+inoremap )) <ESC>la
+inoremap ]] <ESC>la
 """""""""""""""""""""""""""""""""""""功能类
 nnoremap <silent> <tab> :bnext<CR>
 nnoremap <C-j> <C-w>j
