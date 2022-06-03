@@ -24,6 +24,8 @@ Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-commentary'
+Plug 'lilydjwg/fcitx.vim'
+Plug 'hotoo/pangu.vim', { 'for': ['markdown', 'vimwiki', 'text'] }
 "Plug 'RRethy/vim-illuminate' "hightlight
 
 call plug#end()
@@ -56,5 +58,6 @@ source $VIMPATH/plug-config/indentline.vim
 source $VIMPATH/plug-config/coc.vim
 source $VIMPATH/plug-config/bracey.vim
 source $VIMPATH/plug-config/comment.vim
+source $VIMPATH/plug-config/pangu.vim
 
 
