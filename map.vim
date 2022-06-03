@@ -30,8 +30,8 @@ inoremap <leader>` ```<CR>```<ESC>ka
 inoremap <leader>: :::<CR>:::<ESC>ka
 
 "nerdtree
-nnoremap <leader>n :NERDTreeToggle<CR>
-nnoremap <leader>f :NERDTreeFind<CR>
+" nnoremap <leader>n :NERDTreeToggle<CR>
+" nnoremap <leader>f :NERDTreeFind<CR>
 
 " 打开HTML
 nnoremap <leader>p :Bracey<CR>

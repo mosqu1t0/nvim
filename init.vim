@@ -9,7 +9,7 @@ source $VIMPATH/map.vim
 call plug#begin('~/.vim/plugged')
 Plug 'Yggdroot/indentLine'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'scrooloose/nerdtree'
+" Plug 'scrooloose/nerdtree'
 Plug 'mhinz/vim-startify'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
