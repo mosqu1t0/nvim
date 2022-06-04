@@ -1,6 +1,6 @@
 " 支持斜体
-colo gruvbox
 let g:gruvbox_italic=1	
+colo gruvbox
 
 "neovim 色彩丰富设置
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.

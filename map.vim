@@ -22,6 +22,7 @@ nnoremap <C-l> <C-w>l
 
 nnoremap P "+p
 nnoremap Y "+y
+
 vnoremap Y "+y
 
 "markdown 全角中文空格
@@ -29,12 +30,10 @@ inoremap <leader><space> &emsp;
 inoremap <leader>` ```<CR>```<ESC>ka
 inoremap <leader>: :::<CR>:::<ESC>ka
 
-"nerdtree
-" nnoremap <leader>n :NERDTreeToggle<CR>
-" nnoremap <leader>f :NERDTreeFind<CR>
-
 " 打开HTML
 nnoremap <leader>p :Bracey<CR>
 " 打开markdown
 nnoremap <leader>m :MarkdownPreviewToggle<CR>
+" easymotion
+map <leader>t <Plug>(easymotion-bd-f)
 

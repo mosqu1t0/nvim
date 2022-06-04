@@ -26,6 +26,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-commentary'
 Plug 'lilydjwg/fcitx.vim'
 Plug 'hotoo/pangu.vim', { 'for': ['markdown', 'vimwiki', 'text'] }
+Plug 'easymotion/vim-easymotion'
 "Plug 'RRethy/vim-illuminate' "hightlight
 
 call plug#end()
@@ -48,7 +49,7 @@ let g:coc_global_extensions = [
 
 
 " colortheme config
-source $VIMPATH/colortheme.vim
+source $VIMPATH/gruvbox.vim
 " source $VIMPATH/gruvbox.vim
 
 " plug config

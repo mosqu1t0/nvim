@@ -3,7 +3,7 @@ set termencoding=utf-8
 set encoding=utf-8
 "显示行号
 set nu
-set number
+" set number
 "cursorline的缩写形式
 "set cursorline
 set cul
