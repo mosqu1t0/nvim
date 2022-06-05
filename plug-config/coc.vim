@@ -63,3 +63,9 @@ xmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
 " highlight 选中临近单词
 autocmd CursorHold * silent call CocActionAsync('highlight')
+
+
+
+
+
+
