@@ -35,8 +35,8 @@ nnoremap <leader>p :Bracey<CR>
 " 打开markdown
 nnoremap <leader>m :MarkdownPreviewToggle<CR>
 " easymotion
-map <leader>t <Plug>(easymotion-bd-f)
-nmap <Leader>t <Plug>(easymotion-overwin-f)
+map f <Plug>(easymotion-bd-f)
+nmap f <Plug>(easymotion-overwin-f)
 
 map  / <Plug>(easymotion-sn)
 omap / <Plug>(easymotion-tn)
