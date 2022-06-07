@@ -38,5 +38,5 @@ nnoremap <leader>m :MarkdownPreviewToggle<CR>
 map f <Plug>(easymotion-bd-f)
 nmap f <Plug>(easymotion-overwin-f)
 
-map  / <Plug>(easymotion-sn)
-omap / <Plug>(easymotion-tn)
+map  <leader>/ <Plug>(easymotion-sn)
+omap <leader>/ <Plug>(easymotion-tn)
