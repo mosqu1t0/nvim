@@ -23,6 +23,7 @@ nnoremap <C-l> <C-w>l
 nnoremap P "+p
 nnoremap Y "+y
 
+vnoremap P "+p
 vnoremap Y "+y
 
 "markdown 全角中文空格
