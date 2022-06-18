@@ -4,16 +4,45 @@ source $VIMPATH/func.vim
 let g:mapleader="\\"
 
 
-"""""""""""""""""""""""""""""""""""""key
+" -------------------------------------layout
 source $VIMPATH/colemak.vim
-""""""""""""""""""""""""""""""""""""补全类
+" ------------------------------------补全类
 inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap { {<CR>}<ESC>O
 
 inoremap )) <ESC>la
 inoremap ]] <ESC>la
-"""""""""""""""""""""""""""""""""""""功能类
+inoremap : : 
+
+    " 防勿输入
+
+inoremap （ ()<Esc>i
+inoremap 【 []<Esc>i
+inoremap ｛ {<CR>}<ESC>O
+
+inoremap ）) <ESC>la
+inoremap 】] <ESC>la
+inoremap ： : 
+inoremap ； ; 
+
+
+
+" markdown 全角中文空格
+inoremap <leader><space> &emsp;
+" blog shortcut input
+inoremap <leader>` ```<CR>```<ESC>ka
+inoremap <leader>: :::<CR>:::<ESC>ka
+
+    " 防勿输入
+inoremap 、； :::<CR>:::<ESC>ka
+inoremap 、· ```<CR>```<ESC>ka
+
+inoremap xx <Esc>
+
+
+
+" -------------------------------------功能类
 nnoremap <silent> <tab> :bnext<CR>
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
@@ -26,10 +55,9 @@ nnoremap Y "+y
 vnoremap P "+p
 vnoremap Y "+y
 
-"markdown 全角中文空格
-inoremap <leader><space> &emsp;
-inoremap <leader>` ```<CR>```<ESC>ka
-inoremap <leader>: :::<CR>:::<ESC>ka
+
+
+" --------------------------------plugin-key
 
 " 打开HTML
 nnoremap <leader>p :Bracey<CR>

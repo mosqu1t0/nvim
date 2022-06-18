@@ -1,9 +1,14 @@
-set t_Co=256
-set termguicolors
+" Example config in VimScript
+let g:tokyonight_style = "storm"
+let g:tokyonight_italic_functions = 1
+let g:tokyonight_sidebars = [ "qf", "vista_kind", "terminal", "packer" ]
 
-let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+" Change the "hint" color to the "orange" color, and make the "error" color bright red
+let g:tokyonight_colors = {
+  \ 'hint': 'orange',
+  \ 'error': '#ff0000'
+\ }
 
-set background=dark    " Setting dark mode
-colorscheme deus
-let g:deus_termcolors=256
+" Load the colorscheme
+colorscheme tokyonight
+

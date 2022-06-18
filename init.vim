@@ -11,11 +11,11 @@ Plug 'Yggdroot/indentLine'
 Plug 'ctrlpvim/ctrlp.vim'
 " Plug 'scrooloose/nerdtree'
 Plug 'mhinz/vim-startify'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
 Plug 'lambdalisue/suda.vim'
-Plug 'morhetz/gruvbox'
-Plug 'ajmwagar/vim-deus'
+" Plug 'morhetz/gruvbox'
+" Plug 'ajmwagar/vim-deus'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'myusuf3/numbers.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -28,8 +28,10 @@ Plug 'lilydjwg/fcitx.vim'
 Plug 'hotoo/pangu.vim', { 'for': ['markdown', 'vimwiki', 'text'] }
 Plug 'easymotion/vim-easymotion'
 "Plug 'RRethy/vim-illuminate' "hightlight
-
+Plug 'itchyny/lightline.vim'
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 call plug#end()
+
 
 
 let g:coc_global_extensions = [
@@ -49,11 +51,11 @@ let g:coc_global_extensions = [
 
 
 " colortheme config
-source $VIMPATH/gruvbox.vim
+source $VIMPATH/colortheme.vim
 " source $VIMPATH/gruvbox.vim
 
 " plug config
-source $VIMPATH/plug-config/airline.vim
+source $VIMPATH/plug-config/lightline.vim
 source $VIMPATH/plug-config/markdown.vim
 source $VIMPATH/plug-config/indentline.vim
 source $VIMPATH/plug-config/coc.vim
