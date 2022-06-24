@@ -7,6 +7,22 @@ let g:mapleader="\\"
 " -------------------------------------layout
 source $VIMPATH/colemak.vim
 " ------------------------------------补全类
+    " 防勿输入
+imap ： :
+imap ； ;
+imap · `
+imap 。 .
+imap 、 <leader>
+
+imap （ (
+imap 【 [
+imap ｛ {
+imap 《 <
+
+imap ） )
+imap 】 ]
+imap 》 >
+
 inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap { {<CR>}<ESC>O
@@ -15,24 +31,6 @@ inoremap )) <ESC>la
 inoremap ]] <ESC>la
 inoremap : : 
 
-    " 防勿输入
-imap ： :
-imap ； ;
-imap · `
-imap 《 <
-imap 》 >
-
-inoremap （ ()<Esc>i
-inoremap 【 []<Esc>i
-inoremap ｛ {<CR>}<ESC>O
-
-inoremap ） ) <ESC>la
-inoremap 】 ] <ESC>la
-inoremap ）） <ESC>la
-inoremap 】】 <ESC>la
-
-
-
 
 
 " markdown 全角中文空格
@@ -40,16 +38,11 @@ inoremap <leader><space> &emsp;
 " blog shortcut input
 inoremap <leader>` ```<CR>```<ESC>ka
 inoremap <leader>: :::<CR>:::<ESC>ka
-    " 防勿输入
-inoremap 、； :::<CR>:::<ESC>ka
-inoremap 、： :::<CR>:::<ESC>ka
-inoremap 、· ```<CR>```<ESC>ka
-
-inoremap xx <Esc>
 
 
 
 " -------------------------------------功能类
+inoremap xx <Esc>
 nnoremap <silent> <tab> :bnext<CR>
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
