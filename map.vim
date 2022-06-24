@@ -23,12 +23,15 @@ imap ） )
 imap 】 ]
 imap 》 >
 
+
 inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap { {<CR>}<ESC>O
 
 inoremap )) <ESC>la
 inoremap ]] <ESC>la
+inoremap ）） <ESC>la
+inoremap 】】 <ESC>la
 inoremap : : 
 
 
