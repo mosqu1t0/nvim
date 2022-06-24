@@ -16,6 +16,11 @@ inoremap ]] <ESC>la
 inoremap : : 
 
     " 防勿输入
+imap ： :
+imap ； ;
+imap · `
+imap 《 <
+imap 》 >
 
 inoremap （ ()<Esc>i
 inoremap 【 []<Esc>i
@@ -25,8 +30,8 @@ inoremap ） ) <ESC>la
 inoremap 】 ] <ESC>la
 inoremap ）） <ESC>la
 inoremap 】】 <ESC>la
-inoremap ： : 
-inoremap ； ; 
+
+
 
 
 
@@ -35,9 +40,9 @@ inoremap <leader><space> &emsp;
 " blog shortcut input
 inoremap <leader>` ```<CR>```<ESC>ka
 inoremap <leader>: :::<CR>:::<ESC>ka
-
     " 防勿输入
 inoremap 、； :::<CR>:::<ESC>ka
+inoremap 、： :::<CR>:::<ESC>ka
 inoremap 、· ```<CR>```<ESC>ka
 
 inoremap xx <Esc>
