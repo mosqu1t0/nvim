@@ -32,10 +32,10 @@ inoremap ]] <ESC>la
 inoremap : : 
 
 
-
 " markdown 全角中文空格
 inoremap <leader><space> &emsp;
-" blog shortcut input
+inoremap ` ``<ESC>i
+    " blog shortcut input
 inoremap <leader>` ```<CR>```<ESC>ka
 inoremap <leader>: :::<CR>:::<ESC>ka
 
