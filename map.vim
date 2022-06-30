@@ -12,7 +12,7 @@ imap ： :
 imap ； ;
 imap · `
 imap 。 .
-imap 、 <leader>
+imap 、 \
 
 imap （ (
 imap 【 [
@@ -41,11 +41,15 @@ inoremap ` ``<ESC>i
     " blog shortcut input
 inoremap <leader>` ```<CR>```<ESC>ka
 inoremap <leader>: :::<CR>:::<ESC>ka
+    " 防勿输入
+inoremap <leader>· ```<CR>```<ESC>ka
+inoremap <leader>： :::<CR>:::<ESC>ka
 
 
 
 " -------------------------------------功能类
-inoremap xx <Esc>
+inoremap zz <Esc>
+inoremap <C-v> <ESC>"+pkdd
 nnoremap <silent> <tab> :bnext<CR>
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
