@@ -24,6 +24,8 @@ imap 】 ]
 imap 》 >
 
 
+
+
 inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap { {<CR>}<ESC>O
@@ -49,7 +51,6 @@ inoremap <leader>： :::<CR>:::<ESC>ka
 
 " -------------------------------------功能类
 inoremap zz <Esc>
-inoremap <C-v> <ESC>"+pkdd
 nnoremap <silent> <tab> :bnext<CR>
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
